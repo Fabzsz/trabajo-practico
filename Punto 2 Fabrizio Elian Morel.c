@@ -1,6 +1,6 @@
 #include <stdio.h>
-// C�digo del alumno Fabrizio Elian Morel
-// link de git personal: https://github.com/Fabzsz/Escuela
+// Código del alumno Fabrizio Elian Morel
+// link de git personal: https://github.com/Fabzsz/trabajo-practico
 // link del git grupal (lider Gabriel Alan Quiroz): https://github.com/matecebado357/Trabajo-de-Laboratorio-de-Programacion
 
 double cm_a_pulgadas(double cm)
@@ -21,8 +21,8 @@ int main()
     double resultado1 = cm_a_pulgadas(centimetros);
     double resultado2 = pulgadas_a_cm(pulgadas);
 
-    printf("La conversión de %.2f centímetros a pulgadas es: %.4f\n", centimetros, resultado1);
-    printf("La conversión de %.4f pulgadas a centímetros es: %.2f\n", pulgadas, resultado2);
+    printf("La conversiÃ³n de %.2f centÃ­metros a pulgadas es: %.4f\n", centimetros, resultado1);
+    printf("La conversiÃ³n de %.4f pulgadas a centÃ­metros es: %.2f\n", pulgadas, resultado2);
 
     return 0;
 }
